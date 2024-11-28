@@ -98,19 +98,19 @@ def index() -> rx.Component:
                         box_shadow="md",
                         max_width="14rem",  # Tamaño ajustado para la imagen
                     ),
-                    spacing="7",  # Espaciado entre las imágenes
+                    spacing="1",  # Espaciado entre las imágenes
                     align="center",  # Alineación centrada
-                    margin_left="6rem",  # Espaciado entre las imágenes y el contenido de la izquierda
+                    margin_left="5rem",  # Espaciado entre las imágenes y el contenido de la izquierda
                 ),
                 
-                spacing="7",  # Espaciado general entre las columnas
+                spacing="1",  # Espaciado general entre las columnas
                 justify="space-between",  # Distribución equitativa de espacio entre las columnas
                 align="center",  # Alineación centrada entre las columnas
             ),
             
             # Fondo y padding de la página
-            bg="#36f750.",  #color verde 
-            padding="2rem",
+            bg="#068b93",  # color verde 
+            padding="rem",
             min_height="100vh",  # Asegura que la página ocupe toda la altura de la pantalla
         ),
     )
