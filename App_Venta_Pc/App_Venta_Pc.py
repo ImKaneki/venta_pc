@@ -109,7 +109,7 @@ def index() -> rx.Component:
             ),
             
             # Fondo y padding de la página
-            bg="#068b93",  # color verde 
+            bg="#012e77",  # color verde 
             padding="rem",
             min_height="100vh",  # Asegura que la página ocupe toda la altura de la pantalla
         ),
