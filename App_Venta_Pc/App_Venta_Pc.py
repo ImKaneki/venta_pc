@@ -25,9 +25,9 @@ def index() -> rx.Component:
                         box_shadow="md",
                         max_width="15rem",  # Tamaño ajustado para la imagen
                     ),
-                    spacing="4",  # Espaciado entre las imágenes
+                    spacing="5",  # Espaciado entre las imágenes
                     align="center",  # Alineación centrada
-                    margin_right="2rem",  # Espaciado entre las imágenes y el contenido de la derecha
+                    margin_right="6rem",  # Espaciado entre las imágenes y el contenido de la derecha
                 ),
                 
                 # Espaciador para centrar el título y texto
@@ -59,7 +59,7 @@ def index() -> rx.Component:
                         # Botón "Regístrate aquí"
                         rx.link(
                             rx.button("¡Regístrate aquí!", color_scheme="green"),
-                            href="https://forms.gle/fKuHUqbSzgsf9EM16",
+                            href="https://docs.google.com/forms/d/1Qm54XmIdT-uwr5M0kftktM8SAkplAmXjhLxB5s0WbRg/edit",
                             is_external=True,
                         ),  
                         # Botón "Facebook" 
@@ -98,18 +98,18 @@ def index() -> rx.Component:
                         box_shadow="md",
                         max_width="14rem",  # Tamaño ajustado para la imagen
                     ),
-                    spacing="4",  # Espaciado entre las imágenes
+                    spacing="7",  # Espaciado entre las imágenes
                     align="center",  # Alineación centrada
-                    margin_left="2rem",  # Espaciado entre las imágenes y el contenido de la izquierda
+                    margin_left="6rem",  # Espaciado entre las imágenes y el contenido de la izquierda
                 ),
                 
-                spacing="6",  # Espaciado general entre las columnas
+                spacing="7",  # Espaciado general entre las columnas
                 justify="space-between",  # Distribución equitativa de espacio entre las columnas
                 align="center",  # Alineación centrada entre las columnas
             ),
             
             # Fondo y padding de la página
-            bg="#00FF00.",  # Fondo verde
+            bg="#36f750.",  #color verde 
             padding="2rem",
             min_height="100vh",  # Asegura que la página ocupe toda la altura de la pantalla
         ),
