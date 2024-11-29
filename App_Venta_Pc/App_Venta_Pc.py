@@ -98,7 +98,7 @@ def index() -> rx.Component:
                         box_shadow="md",
                         max_width="14rem",  # Tamaño ajustado para la imagen
                     ),
-                    spacing="1",  # Espaciado entre las imágenes
+                    spacing="5",  # Espaciado entre las imágenes
                     align="center",  # Alineación centrada
                     margin_left="5rem",  # Espaciado entre las imágenes y el contenido de la izquierda
                 ),
